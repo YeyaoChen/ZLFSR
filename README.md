@@ -3,9 +3,13 @@ This Project is a Pytorch implementation of "Zero-shot dense light field reconst
 
 ## Requirements
 ** Python 3.7
+
 ** PyTorch 1.2.0
+
 ** CUDA 10.0
+
 ** Cudnn
+
 ** Matlab 2017b (for training/test data generation and evaluation)
 
 
