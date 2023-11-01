@@ -1,6 +1,6 @@
 ################################################################
 
-This Project is a Pytorch implementation of "Learning Zero-shot dense light field reconstruction from heterogeneous imaging using Cycle Consistency"
+This Project is a Pytorch implementation of "Learning Zero-shot dense light field reconstruction from heterogeneous imaging"
 
 ## Requirements
 ** Python 3.7
@@ -22,8 +22,6 @@ This Project is a Pytorch implementation of "Learning Zero-shot dense light fiel
 3. **Training** Run `train.py`  to perform network training.
 
 4. **Test** Run `test.py`  to perform network testing.
-
-5. **Evaluation** Run `matlab/evaluate.m` to generate evaluation results.
 
 
 ## Citation
