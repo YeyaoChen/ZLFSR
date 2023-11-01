@@ -15,13 +15,23 @@ This Project is a Pytorch implementation of "Learning Zero-shot dense light fiel
 
 
 ## Usage
+** For simulation data
 1. **Dataset** Please download the dataset from http://lightfields.stanford.edu/mvlf/release/
 
-2. **Data generation** Run `matlab/PrepareData.m` to generate training data.
+2. **Data generation** Run `ZLFSR_simulation/matlab/PrepareData.m` to generate training data.
 
-3. **Training** Run `train.py`  to perform network training.
+3. **Training** Run `ZLFSR_simulation/train.py`  to perform network training.
 
-4. **Test** Run `test.py`  to perform network testing.
+4. **Test** Run `ZLFSR_simulation/test.py`  to perform network testing.
+
+** For real data
+1. **Dataset** Please download the dataset from 链接：https://pan.baidu.com/s/1Mekzz8M8Y7A1QSDwpxW-Lw (djrm) 
+
+2. **Data generation** Run `ZLFSR_real/matlab/PrepareRealData.m` to generate training data.
+
+3. **Training** Run `ZLFSR_real/train.py`  to perform network training.
+
+4. **Test** Run `ZLFSR_real/test.py`  to perform network testing.
 
 
 ## Citation
